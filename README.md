@@ -16,7 +16,7 @@
 同一分類內依名稱字母排序，不代表推薦順序。
 *Entries are alphabetical within each category; order is not a ranking.*
 
-> 所有連結於 2026-11-03 檢查過可以開啟（GitHub 回應 200；遠端網址有回應 MCP 連線）。
+> 連結於 2026-11-03 檢查。例外：ycsmiley/formosa-mcp 在公開前是私有 repo（404）；Taiwan-Health-MCP 的遠端網址當天回應 502。
 
 ## 目錄
 - [法律 Law](#法律-law)
@@ -40,8 +40,8 @@
 
 ## 醫療與健保 Health
 
-- [healthymind-tech/Taiwan-Health-MCP](https://github.com/healthymind-tech/Taiwan-Health-MCP) ☁️ 🏠 🔓 — 63 個工具：ICD-10、SNOMED CT、LOINC、TFDA 藥品、FHIR TW Core 驗證、臨床計算。
-  *63 tools for Taiwan medical coding, TFDA drugs and FHIR TW Core; remote `https://tw-health-mcp.healthymind-tech.com/mcp`.*
+- [healthymind-tech/Taiwan-Health-MCP](https://github.com/healthymind-tech/Taiwan-Health-MCP) ☁️ 🏠 🔓 — ICD-10、SNOMED CT、LOINC、TFDA 藥品、FHIR TW Core 驗證、臨床計算。
+  *Taiwan medical coding, TFDA drugs and FHIR TW Core; remote `https://tw-health-mcp.healthymind-tech.com/mcp`.*
 - [tatsuju/opdstar-nhi-mcp](https://github.com/tatsuju/opdstar-nhi-mcp) ☁️ — 健保核刪代碼、ICD-10 對應處置、審查指標與健保文件搜尋。
   *Taiwan NHI rejection codes, ICD-10 mappings and audit indicators.*
 
@@ -61,12 +61,12 @@
 
 - [amangeldievkuu/tdx-taiwan-mcp](https://github.com/amangeldievkuu/tdx-taiwan-mcp) 🏠 🔑 — 非官方 TDX：YouBike、公車到站等，需自備 TDX Client ID/Secret。
   *Unofficial TDX server (YouBike, bus); bring your own TDX keys.*
+- [physictim/thsrc_mcp](https://github.com/physictim/thsrc_mcp) 🏠 — 高鐵查詢小工具（2025-08 後未更新）。
+  *Small THSR lookup tool (not updated since Aug 2025).*
 - [tdx-mcp（npm）](https://www.npmjs.com/package/tdx-mcp) 🏠 🔑 — 台鐵、高鐵車站、即時看板與每日時刻表，需 TDX 金鑰。
   *TRA/THSR stations, live boards and timetables; needs TDX keys.*
 - [tdxmotc/MCP](https://github.com/tdxmotc/MCP) ☁️ 🔑 — 交通部 TDX 官方 MCP，資料最完整；需 TDX 會員金鑰。
   *Official MCP from Taiwan's MOTC TDX platform; needs a TDX member key.*
-- [physictim/thsrc_mcp](https://github.com/physictim/thsrc_mcp) 🏠 — 高鐵查詢小工具（2025-08 後未更新）。
-  *Small THSR lookup tool (not updated since Aug 2025).*
 
 ## 台股與財經 Stocks & finance
 
