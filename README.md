@@ -16,7 +16,7 @@
 同一分類內依名稱字母排序，不代表推薦順序。
 *Entries are alphabetical within each category; order is not a ranking.*
 
-> 所有連結於 2026-10-29 檢查過可以開啟（GitHub 回應 200；遠端網址有回應 MCP 連線）。
+> 所有連結於 2026-11-03 檢查過可以開啟（GitHub 回應 200；遠端網址有回應 MCP 連線）。
 
 ## 目錄
 - [法律 Law](#法律-law)
@@ -47,14 +47,15 @@
 
 ## 生活：假日、發票、彩券 Daily life
 
-- [formosa-mcp](https://www.npmjs.com/package/formosa-mcp) 🏠 🔓（☁️ 遠端網址預計 11 月初開放）— 統一發票對獎、台股上市＋上櫃行情；高鐵／台鐵時刻表開發中。`npx -y formosa-mcp`
-  *Taiwan receipt-lottery checking and TWSE/TPEx quotes; rail in progress.*（揭露：本清單維護者的專案 / maintainer's own project）
 - [Life Info MCP](https://mcprush.com/panda198271/life-info-mcp) ☁️ 🔓 — 連假與補班、彩券開獎與對獎、統一發票。沒有公開原始碼。
   *Holidays, lottery results and receipt lottery; remote `https://tw-life-info.panda198271.workers.dev/mcp` (no public source).*
 - [lis186/taiwan-holiday-mcp](https://github.com/lis186/taiwan-holiday-mcp) 🏠 🔓 — 國定假日、補班日、颱風假停班停課查詢。`npx`
   *Holidays, make-up workdays and typhoon day-off status.*
 - [panda2143/taiwan-mcp-tools](https://github.com/panda2143/taiwan-mcp-tools) ☁️ 🔓 — 小型繁中資料集工具：2027 連假、機車規格、AI 名詞等。
   *Small zh-TW datasets (2027 holidays, scooter specs, AI glossary); remote `https://penguindriver.com/mcp`.*
+- [ycsmiley/formosa-mcp](https://github.com/ycsmiley/formosa-mcp) ☁️ 🏠 🔓 — 統一發票對獎、台股上市＋上櫃盤後行情、新北／臺北／臺中垃圾車時刻、計畫性停水停電、高鐵／台鐵時刻表與臺鐵即時資料；遠端網址免金鑰，本機版 `npx -y formosa-mcp`，本機鐵路須自備 TDX 金鑰。揭露：作者本人
+  *Receipt lottery checking, TWSE/TPEx after-hours quotes, garbage truck schedules in New Taipei, Taipei and Taichung, planned water and power outages, THSR/TRA timetables and real-time TRA data; keyless remote `https://<公開網址>/mcp`, local `npx -y formosa-mcp`, and local rail requires a TDX key.*
+<!-- 公開當天把 <公開網址> 換成正式網址 -->
 
 ## 交通 Transport
 
@@ -71,8 +72,6 @@
 
 - [amplify-lab/summa-mcp](https://github.com/amplify-lab/summa-mcp) ☁️ — 台灣會計、稅務、薪資問答助手。
   *Taiwan accounting, tax and payroll assistant; remote `https://mcp.summa.com.tw/mcp`.*
-- [formosa-mcp](https://www.npmjs.com/package/formosa-mcp) 🏠 🔓 — 見上方「生活」分類（發票＋台股同一個伺服器）。
-  *See Daily life above (receipts + stocks in one server).*
 - [gentoobreaking/tw-quant-mcp](https://github.com/gentoobreaking/tw-quant-mcp) 🏠 — 量化用：盤中 1 分 K、盤後籌碼、基本面、期權，資料來自 TWSE/TPEx/MOPS。
   *Intraday 1-min bars, chips, fundamentals and options for quant work (Go).*
 - [hulan-bebe/taiwan-stock-mcp](https://github.com/hulan-bebe/taiwan-stock-mcp) 🏠 🔓 — 用英文查台股官方資料，`uvx taiwan-stock-mcp`。
@@ -85,6 +84,8 @@
   *Taiwan statutory payroll calculations.*
 - [taux-io/twse-mcp](https://github.com/taux-io/twse-mcp) ☁️ 🔓 — 證交所開放資料：個股、ETF、140+ 資料集。
   *TWSE open data: quotes, ETFs, 140+ datasets; remote `https://twse-mcp.taux.io/mcp`.*
+- [ycsmiley/formosa-mcp](https://github.com/ycsmiley/formosa-mcp) ☁️ 🏠 🔓 — 見上方「生活」分類（同一個伺服器）。揭露：作者本人
+  *See Daily life above (same server).*
 
 ## 天氣 Weather
 
