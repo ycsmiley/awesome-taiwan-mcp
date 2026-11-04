@@ -16,7 +16,7 @@
 同一分類內依名稱字母排序，不代表推薦順序。
 *Entries are alphabetical within each category; order is not a ranking.*
 
-> 連結於 2026-11-03 檢查。例外：ycsmiley/formosa-mcp 在公開前是私有 repo（404）；Taiwan-Health-MCP 的遠端網址當天回應 502。
+> 連結於 2026-11-03 檢查。例外：Taiwan-Health-MCP 的遠端網址當天回應 502。
 
 ## 目錄
 - [法律 Law](#法律-law)
@@ -54,8 +54,7 @@
 - [panda2143/taiwan-mcp-tools](https://github.com/panda2143/taiwan-mcp-tools) ☁️ 🔓 — 小型繁中資料集工具：2027 連假、機車規格、AI 名詞等。
   *Small zh-TW datasets (2027 holidays, scooter specs, AI glossary); remote `https://penguindriver.com/mcp`.*
 - [ycsmiley/formosa-mcp](https://github.com/ycsmiley/formosa-mcp) ☁️ 🏠 🔓 — 統一發票對獎、台股上市＋上櫃盤後行情、新北／臺北／臺中垃圾車時刻、計畫性停水停電、高鐵／台鐵時刻表與臺鐵即時資料；遠端網址免金鑰，本機版 `npx -y formosa-mcp`，本機鐵路須自備 TDX 金鑰。揭露：作者本人
-  *Receipt lottery checking, TWSE/TPEx after-hours quotes, garbage truck schedules in New Taipei, Taipei and Taichung, planned water and power outages, THSR/TRA timetables and real-time TRA data; keyless remote `https://<公開網址>/mcp`, local `npx -y formosa-mcp`, and local rail requires a TDX key.*
-<!-- 公開當天把 <公開網址> 換成正式網址 -->
+  *Receipt lottery checking, TWSE/TPEx after-hours quotes, garbage truck schedules in New Taipei, Taipei and Taichung, planned water and power outages, THSR/TRA timetables and real-time TRA data; keyless remote `https://formosa-mcp.ycsmiley.workers.dev/mcp`, local `npx -y formosa-mcp`, and local rail requires a TDX key.*
 
 ## 交通 Transport
 
