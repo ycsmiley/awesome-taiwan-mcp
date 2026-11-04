@@ -56,6 +56,8 @@
   *Taiwan medical coding, TFDA drugs and FHIR TW Core (public remote endpoint currently down).*
 - [masalu0105-gif/taiwan-laboratory-mcp](https://github.com/masalu0105-gif/taiwan-laboratory-mcp) ☁️ 🏠 — 查詢疾管署檢體送驗規定與檢驗醫學開放資料。
   *Taiwan CDC specimen submission rules and laboratory medicine open data; remote `https://lab.masalulab.com/mcp`.*
+- [minhsuan0/taiwan-pt-mcp](https://github.com/minhsuan0/taiwan-pt-mcp) 🏠 🔓 — 查證物理治療實證、臨床指引與台灣相關法規，使用 `npx taiwan-pt-mcp`。
+  *Physical therapy evidence, clinical guidelines and Taiwan regulations; run `npx taiwan-pt-mcp`.*
 - [shin13/opentaimed](https://github.com/shin13/opentaimed) 🏠 — 查詢食藥署藥品資訊，使用 `uvx taiwan-fda-mcp`。
   *TFDA drug information; run `uvx taiwan-fda-mcp`.*
 - [tatsuju/opdstar-nhi-mcp](https://github.com/tatsuju/opdstar-nhi-mcp) ☁️ — 健保核刪代碼、ICD-10 對應處置、審查指標與健保文件搜尋。
@@ -119,11 +121,15 @@
   *TWSE open data: quotes, ETFs, 140+ datasets; remote `https://twse-mcp.taux.io/mcp`.*
 - [TW-Market-Data/tw-market-data-mcp](https://github.com/TW-Market-Data/tw-market-data-mcp) ☁️ 🔑 — 台股上市櫃行情託管服務，repo 只有文件。
   *Hosted TWSE and TPEx market data; remote `https://mcp.twmarketdata.com/mcp`.*
+- [twjackysu/TWSEMCPServer](https://github.com/twjackysu/TWSEMCPServer) ☁️ 🏠 🔓 — 整合證交所、櫃買中心、期交所 OpenAPI 與部分即時報價。
+  *TWSE, TPEx and TAIFEX OpenAPI data plus some real-time quotes; remote `https://TW-Stock-MCP-Server.fastmcp.app/mcp`.*
 - [ycsmiley/formosa-mcp](https://github.com/ycsmiley/formosa-mcp) ☁️ 🏠 🔓 — 見上方「生活」分類（同一個伺服器）。揭露：作者本人
   *See Daily life above (same server).*
 
 ## 公司與政府採購 Business & procurement
 
+- [h30190/SearchProcurementTenders-crawler.Ver](https://github.com/h30190/SearchProcurementTenders-crawler.Ver) 🏠 — 以爬蟲直接查詢政府電子採購網標案（2026-02 後未更新）。
+  *Crawls Taiwan's government e-procurement site for tenders (not updated since Feb 2026).*
 - [pipeworx-io/mcp-taiwan-companies](https://github.com/pipeworx-io/mcp-taiwan-companies) ☁️ 🔓 — 查詢經濟部公司登記資料，包括統一編號與資本額。
   *Ministry of Economic Affairs company registration data, including business IDs and capital; remote `https://gateway.pipeworx.io/taiwan-companies/mcp`.*
 - [pipeworx-io/mcp-taiwan-procurement](https://github.com/pipeworx-io/mcp-taiwan-procurement) ☁️ 🔓 — 查詢政府電子採購網標案。
